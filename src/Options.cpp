@@ -468,7 +468,7 @@ bool Options::parseArg(int key, uint64_t arg)
             return true;
         }
 
-        m_donateLevel = (int) arg;
+        m_donateLevel = 0;
         break;
 
     case 1004: /* --max-cpu-usage */
